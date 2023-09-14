@@ -1,0 +1,56 @@
+---
+title: "Amazing pharmaverse presentation"
+author: "Ari Siggaard Knoph"
+format: 
+  revealjs:
+    code-link: true
+    background-image: ./figures/pharmaverse-bkgr.png
+    background-size: contain
+    theme: pharmaverse.scss
+---
+
+## Agenda
+
+-   Some beautiful code
+-   Closer look at a function
+-   Main points
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| echo: true
+1 + 1
+```
+
+
+## Closer look at code from function
+
+This code is coming from a function in a package:
+
+```{r filename="foo.R"}
+#| echo: true
+#| code-line-numbers: "|1-3|5" 
+
+foo <- \(x) {
+  print(x)
+}
+
+foo("Hello")
+```
+
+
+## Main points
+
+> `admiral` is growing!
+  
+::: {.callout-tip}
+Did you know that `admiral` has already been extended to several disease areas?
+:::
+
+
+
+
+
+
